@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/Estilos.css">
+    <link rel="icon" type="Logo" href="imagenes/Vector.png">
+</head>
+<body>
+    <header>
+        <a href="https://www.alura.com.br/" target="_blank"> <img src="imagenes/Vector.png" class="logo" alt="Logo de Alura"></a>
+        <h1>Encriptador Alura</h1>
+    </header>
+    <section>
+        <textarea class="input" placeholder="Ingrese el texto aqui" rows="21"></textarea>
+        <div class="advertencia">
+            <img src="imagenes/!.png" class="icono" alt="Icono de importancia">
+            <p>Solo se admiten letras minusculas sin acentos ni caracteres especiales</p>
+        </div>
+        <div class="buttons">
+            <button class="encriptar" onclick="encrypt()">Encriptar</button>
+            <button class="desencriptar" onclick="desencrypt()">Desencriptar</button>
+        </div>
+    </div>
+    </section>
+    <section>
+        <textarea class="output" readonly cols="70" rows="28"></textarea>
+        <button class="copiar" onclick="copy()">Copiar!</button>
+    </section>
+    <section>
+        <a href="https://www.linkedin.com/in/fernando-undefined-a5132a248/" target="_blank"><img src="imagenes/Linkedin.png" class="IconoLinkedin" alt="Icono Linkedin"></a>
+
+        <a href="https://github.com/FernandoHuete" target="_blank"><img src="imagenes/Github.png" class="IconoGithub" alt="Icono de Github"></a>
+    </section>
+</body>
+<script src="java/Script.js"></script>
+</html>

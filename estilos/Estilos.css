@@ -1,0 +1,216 @@
+body{
+    background: #E5E5E5;
+}
+.logo{
+    display: inline;
+    margin: 0.5% 0 0 2.5%;
+    padding-top: 1%;
+    width: 2.1%;
+}
+h1{
+    margin-left: 9%;   
+    font-size: 50px;
+    display: inline;
+    font-family: monospace;
+}
+
+.input{
+    font-size: 22px;
+    background: none;
+    border-radius: 13px;
+    width: 53%;
+    box-shadow: 0px 0px 32px 0.5px rgb(142, 90, 255);
+    margin: 5% 0 0 7.5%;
+    padding: 1%;
+    resize: none;
+    color: #0A3871;
+    font-weight: bold;
+}
+.icono{
+    margin-left: 7%;
+    margin-right: 0.50%;
+    width: 1.25%;
+    height: 1.25%;
+}
+.advertencia{
+    display: flex;
+    margin: 2% 0 0 2.5%;
+}
+textarea::placeholder{
+    color:  #0A3871;
+    opacity: 66;
+}
+.buttons{
+    display: inline;
+}
+.encriptar{
+    color: #ffffff;
+    width: 15%;
+    height: 58px;
+    margin: 2% 0 0 12%;
+    background-color: #0A3871;
+    border-radius: 13px;
+    border-width: 1px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.encriptar:hover{
+    cursor:pointer;
+    border-color: rgb(179, 0, 255);
+}
+.encriptar:active{
+    font-size: 18px;
+}
+.desencriptar{
+    color: #0A3871;
+    width: 15%;
+    margin-left: 6%;
+    height: 58px;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    border-width: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.desencriptar:hover{
+    cursor:pointer;
+    border-color: rgb(4, 181, 1);
+}
+.desencriptar:active{
+    font-size: 18px;
+}
+.output{
+    resize: none;
+    background: none;
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 90%;
+    width: 20.5%;
+    margin: -730px 0 60px 70%;
+    box-shadow: 0px 0px 32px 0.5px rgb(86, 83, 255);
+    border-radius: 18px;
+    padding: 1%;
+    color: rgb(89, 71, 156);
+    font-size: 22px;
+    display: block;
+}
+.output:hover{
+    cursor:auto;
+}
+.copiar{
+    position: absolute;
+    color: #FFFFFF;
+    width: 15%;
+    height: 60px;
+    background-color: #0A3871;
+    border-radius: 15px;
+    border-width: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: -10% 0 0 74.1%;
+}
+.copiar:hover{
+    cursor:pointer;
+    border-color: white;
+}
+.copiar:active{
+    font-size: 18px;
+}
+.IconoLinkedin{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: -10% 0 0 20px;
+}
+.IconoGithub{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: -4.5% 0 0 20px;
+}
+@media screen and (max-width:1024px) {
+    body{
+        background-repeat:repeat;
+    }
+    .logo{
+        position: relative;
+        margin: auto;
+        display: block;
+        background: none;
+        padding-top: 2%;
+        width: 10%;
+        height: 14%;
+    }
+    h1{
+        position: relative;
+        margin: auto;
+        background: none;
+        display: block;
+        font-size: 35px;
+        text-align: center;
+        padding: 1% 0 2% 0;
+    }
+  
+    .encriptar, .desencriptar, .copiar{
+        width: auto;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+
+    .input, .output{
+        display: block;
+        height: 250px;
+        margin-left: 10%;
+        margin-top: 2%;
+        padding: 3% 0 0 3.5%;
+        width: 75%;
+        font-size: 11px;
+        background-size: 50%;
+    }
+    .encriptar, .desencriptar{
+        display: inline-block;
+        margin: 2% auto 2% 25%;
+    }
+    .icono{
+        margin-left: 8%;
+        width: 17px;
+        height: 17px;
+    }
+
+    .copiar{
+        position: relative;
+        margin: -100px auto 50px auto;
+    }
+    .IconoLinkedin, .IconoGithub{
+        width: 7%;
+        height: 7%;
+        margin: auto;
+        display: inline-block;
+        margin: 2% auto 2% 27%;
+        position: relative;
+    }
+}
+@media screen and (max-width:480px) {
+    .encriptar, .desencriptar{
+        margin: auto;
+        display: block;
+
+    }
+    .output{
+        background-size: 80%;
+    }
+}
+@media screen and (min-width:1500px) {
+    header div{
+        margin-left: 74.4%;
+    }
+}
+@media screen and (min-width:1780px) {
+    header div{
+        margin-left: 75.3%;
+        padding-top: -20px;
+        margin-bottom: -7%;
+    }
+}
